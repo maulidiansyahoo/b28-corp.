@@ -211,13 +211,13 @@ header {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
+  background-color: #f5cb5c;
   text-align: center;
 }
 
 .lesson {
-  float: left;
-  width: 25%;
+  float: bottom;
+  width: 100%;
 }
 
 .lesson-icon {
@@ -226,17 +226,18 @@ header {
 
 .lesson-icon p {
   position: absolute;
-  top: 44%;
+  top: 90%;
   width: 100%;
-  color: white;
+  font-size:28px;
+  color: #242423;
 }
 
 .text-contents {
   width: 80%;
   display: inline-block;
   margin-top: 15px;
-  font-size: 15px;
-  color: #b3aeb5;
+  font-size: 17px;
+  color: #333533;
 }
 
 
