@@ -15,7 +15,6 @@ a {
 
 .container {
   max-width: 1170px;
-  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -54,16 +53,27 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
+  background-color: rgba(245, 203, 92, 0.9);
+  /* Change the position property to fixed, and top property to 0 */
+  position:fixed;
+  top:0;
+  
+  /* Change the z-index property to 10 */
+  z-index:10;
 }
 
 .logo {
-  width: 124px;
-  margin-top: 20px;
+  width: 60px;
+  margin-top: 5px;
 }
+
+.Corps{
+  float:right;
+  margin-top:25px;
+  color:black;
+}
+
+
 
 .header-left {
   float: left;
@@ -71,29 +81,76 @@ header {
 
 .header-right {
   float: right;
-  margin-right: -25px;
+  background-color: rgba(245,203,92, 0.5);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(51, 053, 51, 0.5);
 }
 
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
-  color: white;
+  color: White;
   display: block;
-  float: left;
+}
+
+.header-right1 {
+  float: right;
+  background-color: rgba(245,203,92, 0.5);
   transition: all 0.5s;
 }
 
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+.header-right1:hover {
+  background-color: rgba(51, 053, 51, 0.5);
 }
 
-span.menu-icon {
-  color: white;
+.header-right1 a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: White;
+  display: block;
+}
+
+.header-right2 {
   float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  /* Change the display property to none */
-  display: none;
+  background-color: rgba(245,203,92, 0.5);
+  transition: all 0.5s;
+}
+
+.header-right2:hover {
+  background-color: rgba(51, 053, 51, 0.5);
+}
+
+.header-right2 a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: White;
+  display: block;
+}
+
+.signintwitter{
+  float:right;
+}
+
+.signintwitter img{
+  width:32px;
+  height:32px;
+  padding-top:17px;
+  padding-bottom:12px;
+}
+
+.signinfb{
+  float:right;
+}
+
+.signinfb img{
+  width:32px;
+  height:32px;
+  padding-top:17px;
+  padding-right:10px;
+  padding-bottom:12px;
 }
 
 
