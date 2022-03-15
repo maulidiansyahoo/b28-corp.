@@ -186,6 +186,7 @@ span.menu-icon {
 
 /* main (contact/message wrapper) (Farhan Arrahman) */
 
+
 .heading h3 {
   font-weight: normal;
 }
@@ -207,6 +208,66 @@ span.menu-icon {
   position: relative;
   top: 7px;
   box-shadow: none;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.message-wrapper p {
+  font-size: 15px;
+}
+
+.contact-submit {
+  background-color: #f5cb5c;
+  color: white;
+  transition: all 0.5s;
+}
+
+.contact-submit:hover {
+    cursor: pointer;
+    background-color: #333533;
+}
+
+img#fixedbutton {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    width: 5%;
+    margin: 10px 10px;
+
+   -webkit-animation: bounce 1s infinite;
+}
+
+p#fixedbutton {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    width: 5%;
+    margin: 65px 50px;
+    color: black;
+
+   -webkit-animation: bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    transform: scale(1,1) translate(0px, 0px);
+  }
+  
+  50%{
+    transform: scale(1,1) translate(0px, -14px); 
+  }
+
+  100%{
+    transform: scale(1,1) translate(0px, 0px); 
+  }
+
 }
 
 
